@@ -9,7 +9,7 @@ function TodoApp() {
     if (trimmedTask) {
       const updatedTasks = [...tasks, trimmedTask].sort((a, b) => a.localeCompare(b));
       setTasks(updatedTasks);
-      setTask(''); // clear input field
+      setTask(''); 
     }
   };
 
